@@ -11,6 +11,7 @@ import { CartItem } from '../shared/models/CartItems';
 })
 export class CartPageComponent implements OnInit {
   cart!:Cart;
+//dependency injection
   constructor(private cartService: CartService,private router:Router) { 
     this.setCart();
   }
