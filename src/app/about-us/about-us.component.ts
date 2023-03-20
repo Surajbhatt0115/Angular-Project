@@ -9,5 +9,6 @@ import { Router } from '@angular/router';
 export class AboutUSComponent {
   constructor(private router:Router){
   }
+  // routing to hame component
   goBack=()=>this.router.navigate(['/home']);
 }
