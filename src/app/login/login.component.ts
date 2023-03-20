@@ -12,10 +12,10 @@ import { LoginValidation } from '../loginValidation';
 export class LoginComponent {
   constructor(private fosa:FosaService,private router:Router){
   }
-
+// array  to store login detail
   loginArr:LoginValidation[]=[];
 
-
+// to validate user is valid or not 
 
   submitLogin(name:string,password:string){
     this.loginArr=this.fosa.getAllLoginDetails();
